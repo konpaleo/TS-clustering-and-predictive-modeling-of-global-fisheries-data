@@ -20,9 +20,21 @@ python -m venv venv
 
 # Activate the virtual environment
 # On Windows
+
 venv\Scripts\activate
 # On macOS/Linux
 source venv/bin/activate
 
 # Install required modules
 pip install -r requirements.txt
+```
+
+## Data
+
+The dataset files are located in the `data` folder. Ensure this folder contains the following files:
+
+- `global-fishery-catch-by-sector.csv`
+- `capture-fishery-production.csv`
+- `aquaculture-farmed-fish-production.csv`
+- `fish-and-seafood-consumption-per-capita.csv`
+- `fish-stocks-within-sustainable-levels.csv`
